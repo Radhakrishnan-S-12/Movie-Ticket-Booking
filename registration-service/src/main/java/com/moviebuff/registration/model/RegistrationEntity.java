@@ -154,14 +154,6 @@ public class RegistrationEntity {
 		result = prime * result + ((userId == null) ? 0 : userId.hashCode());
 		return result;
 	}
-
-	@Override
-	public String toString() {
-		return "UserId: " + userId + "\nFirstName: " + firstName + "\nMiddleName: " + middleName + "\nLastName: "
-				+ lastName + "\nPassword: " + password + "\nAccountType: " + accountType + "\nActiveStatus: "
-				+ activeStatus + "\nEmailID: " + emailID + "\nDateOfBirth: " + dateOfBirth + "\nAge: " + age
-				+ "\nCountryCode=" + countryCode + "\nPhoneNumber: " + phoneNumber + "\nSex: " + sex + "\nNationality="
-				+ nationality;
-	}
+	
 
 }
