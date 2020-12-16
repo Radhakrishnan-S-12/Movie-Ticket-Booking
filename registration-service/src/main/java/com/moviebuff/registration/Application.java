@@ -1,13 +1,15 @@
-package com.moviebuff.registration.service;
+package com.moviebuff.registration;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
-public class RegistrationServiceApplication {
+@EnableEurekaClient
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RegistrationServiceApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }

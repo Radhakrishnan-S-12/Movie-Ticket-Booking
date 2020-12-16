@@ -1,4 +1,4 @@
-package com.moviebuff.registration.service.model;
+package com.moviebuff.registration.model;
 
 import java.util.Date;
 
