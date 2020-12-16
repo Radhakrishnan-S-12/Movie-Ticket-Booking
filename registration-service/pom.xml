@@ -8,11 +8,11 @@
 		<version>2.4.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.moviebuff</groupId>
+	<groupId>com.autospares</groupId>
 	<artifactId>registration-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>registration-service</name>
-	<description>Registration service for movie buff</description>
+	<description>Registration service for auto spares</description>
 
 	<properties>
 		<java.version>1.8</java.version>
