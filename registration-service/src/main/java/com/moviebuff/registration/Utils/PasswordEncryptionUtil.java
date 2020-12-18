@@ -12,8 +12,5 @@ public class PasswordEncryptionUtil {
 		password = BCrypt.hashpw(password, SALT);
 	}
 
-	public static boolean checkPassword(String password, String hashedPassword) throws NoSuchAlgorithmException {
-		return BCrypt.checkpw(password, hashedPassword);
-	}
 
 }

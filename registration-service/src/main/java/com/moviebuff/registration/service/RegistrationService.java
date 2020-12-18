@@ -10,7 +10,6 @@ import com.moviebuff.registration.model.RegistrationEntity;
 import com.moviebuff.registration.repository.RegistrationRepository;
 
 import lombok.extern.slf4j.Slf4j;
-import net.bytebuddy.asm.Advice.This;
 
 @Service
 @Slf4j
@@ -36,10 +35,6 @@ public class RegistrationService {
 
 	private void encryptPassword(String password) throws NoSuchAlgorithmException {
 		PasswordEncryptionUtil.encryptPassword(password);
-	}
-
-	private void checkPassword(String password, String hashedPassword) throws NoSuchAlgorithmException {
-		PasswordEncryptionUtil.checkPassword(password, hashedPassword);
 	}
 
 }
